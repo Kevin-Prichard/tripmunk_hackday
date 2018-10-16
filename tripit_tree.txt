@@ -1,0 +1,545 @@
+('a', 'a') 31.4 21
+('a', 'check_in') 45.8 51
+('a', 'email') 40.8 98
+('a', 'email', 'email') 38.1 32
+('a',) 29.9 626
+('arrival', 'arrival') 7.6 318
+('arrival', 'arrival', 'check_in') 25.7 88
+('arrival', 'check_in') 23.9 3048
+('arrival', 'check_in', 'check_in') 16.1 29
+('arrival', 'check_in', 'departure') 40.0 64
+('arrival', 'check_in', 'email') 24.8 109
+('arrival', 'connection') 7.9 24
+('arrival', 'departure') 13.6 305
+('arrival', 'departure', 'arrival') 18.5 66
+('arrival', 'departure', 'check_in') 21.3 22
+('arrival', 'departure', 'gate_update') 15.3 49
+('arrival', 'departure', 'geofence') 15.4 41
+('arrival', 'email') 20.8 664
+('arrival', 'email', 'check_in') 29.8 82
+('arrival', 'email', 'email') 23.3 201
+('arrival', 'email', 'email', 'check_in') 34.0 25
+('arrival', 'email', 'email', 'email') 25.2 74
+('arrival', 'email', 'email', 'email', 'email') 27.7 31
+('arrival',) 8.5 15914
+('cancellation', 'check_in') 22.4 24
+('cancellation', 'email') 25.5 23
+('cancellation',) 13.7 176
+('check_in', 'a') 37.7 22
+('check_in', 'arrival') 7.3 94
+('check_in', 'check_in') 26.2 415
+('check_in', 'check_in', 'check_in') 15.1 36
+('check_in', 'check_in', 'check_in', 'departure') 22.9 29
+('check_in', 'check_in', 'departure') 39.6 190
+('check_in', 'check_in', 'departure', 'departure') 47.6 31
+('check_in', 'check_in', 'departure', 'geofence') 37.4 33
+('check_in', 'check_in', 'email') 22.4 82
+('check_in', 'check_in', 'email', 'email') 23.7 23
+('check_in', 'connection') 6.5 31
+('check_in', 'delay') 34.7 142
+('check_in', 'departure') 24.6 3443
+('check_in', 'departure', 'arrival') 47.4 231
+('check_in', 'departure', 'arrival', 'check_in') 41.1 57
+('check_in', 'departure', 'arrival', 'departure') 30.5 264
+('check_in', 'departure', 'arrival', 'departure', 'arrival') 37.1 171
+('check_in', 'departure', 'arrival', 'departure', 'gate_update') 31.8 48
+('check_in', 'departure', 'arrival', 'departure', 'gate_update', 'arrival') 36.4 22
+('check_in', 'departure', 'check_in') 34.9 90
+('check_in', 'departure', 'check_in', 'departure') 32.0 46
+('check_in', 'departure', 'connection') 43.4 104
+('check_in', 'departure', 'connection', 'arrival') 49.1 21
+('check_in', 'departure', 'connection', 'check_in') 42.1 33
+('check_in', 'departure', 'connection', 'departure') 33.7 42
+('check_in', 'departure', 'connection', 'departure', 'connection') 37.4 27
+('check_in', 'departure', 'delay') 30.1 68
+('check_in', 'departure', 'departure') 14.3 88
+('check_in', 'departure', 'email') 28.6 33
+('check_in', 'departure', 'gate_update') 24.2 347
+('check_in', 'departure', 'gate_update', 'departure') 25.2 30
+('check_in', 'departure', 'gate_update', 'gate_update') 30.4 62
+('check_in', 'departure', 'geofence') 22.2 392
+('check_in', 'departure', 'geofence', 'gate_update') 21.1 43
+('check_in', 'email') 32.6 1910
+('check_in', 'email', 'check_in') 42.9 28
+('check_in', 'email', 'check_in', 'departure') 42.8 24
+('check_in', 'email', 'departure') 21.0 48
+('check_in', 'email', 'email') 31.7 490
+('check_in', 'email', 'email', 'departure') 41.0 29
+('check_in', 'email', 'email', 'email') 30.9 127
+('check_in', 'email', 'email', 'email', 'email') 29.9 70
+('check_in', 'email', 'email', 'email', 'email', 'email') 27.3 25
+('check_in', 'geofence') 24.1 30
+('check_in', 'geofence', 'departure') 30.4 59
+('check_in', 'schedule_change') 40.8 82
+('check_in',) 36.3 34477
+('connection', 'arrival') 11.1 1181
+('connection', 'arrival', 'check_in') 26.5 224
+('connection', 'arrival', 'email') 25.4 55
+('connection', 'check_in') 23.9 937
+('connection', 'check_in', 'arrival') 12.9 34
+('connection', 'check_in', 'email') 22.7 36
+('connection', 'connection') 7.8 259
+('connection', 'connection', 'arrival') 10.2 52
+('connection', 'connection', 'check_in') 24.7 39
+('connection', 'delay') 8.6 352
+('connection', 'delay', 'arrival') 11.8 73
+('connection', 'delay', 'check_in') 22.4 39
+('connection', 'delay', 'delay') 9.2 93
+('connection', 'delay', 'delay', 'arrival') 11.4 21
+('connection', 'delay', 'delay', 'delay') 9.8 37
+('connection', 'delay', 'pull_in') 9.0 37
+('connection', 'departure') 14.1 103
+('connection', 'email') 17.6 264
+('connection', 'email', 'check_in') 28.1 23
+('connection', 'email', 'email') 18.4 62
+('connection', 'email', 'email', 'email') 19.0 22
+('connection', 'gate_update') 9.8 626
+('connection', 'gate_update', 'arrival') 12.9 113
+('connection', 'gate_update', 'arrival', 'check_in') 25.5 25
+('connection', 'gate_update', 'check_in') 26.0 56
+('connection', 'gate_update', 'delay') 11.0 79
+('connection', 'gate_update', 'delay', 'delay') 12.0 24
+('connection', 'gate_update', 'email') 18.0 24
+('connection', 'gate_update', 'gate_update') 9.1 71
+('connection',) 7.9 7588
+('delay', 'arrival') 6.2 922
+('delay', 'arrival', 'arrival') 6.2 29
+('delay', 'arrival', 'check_in') 23.4 206
+('delay', 'arrival', 'departure') 10.4 24
+('delay', 'arrival', 'email') 19.2 29
+('delay', 'cancellation') 8.7 25
+('delay', 'check_in') 19.0 393
+('delay', 'check_in', 'arrival') 8.5 36
+('delay', 'connection') 6.5 484
+('delay', 'connection', 'arrival') 8.6 89
+('delay', 'connection', 'check_in') 20.5 53
+('delay', 'connection', 'delay') 7.4 61
+('delay', 'connection', 'gate_update') 7.7 33
+('delay', 'connection', 'pull_in') 7.8 36
+('delay', 'delay') 11.7 2724
+('delay', 'delay', 'arrival') 6.7 292
+('delay', 'delay', 'arrival', 'check_in') 20.2 63
+('delay', 'delay', 'check_in') 18.8 108
+('delay', 'delay', 'connection') 6.3 76
+('delay', 'delay', 'delay') 13.7 933
+('delay', 'delay', 'delay', 'arrival') 7.1 103
+('delay', 'delay', 'delay', 'check_in') 21.2 36
+('delay', 'delay', 'delay', 'connection') 6.6 29
+('delay', 'delay', 'delay', 'delay') 11.5 343
+('delay', 'delay', 'delay', 'delay', 'arrival') 9.0 25
+('delay', 'delay', 'delay', 'delay', 'delay') 11.7 187
+('delay', 'delay', 'delay', 'delay', 'delay', 'delay') 15.2 88
+('delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay') 9.7 40
+('delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay') 12.4 23
+('delay', 'delay', 'delay', 'email') 22.4 40
+('delay', 'delay', 'delay', 'gate_update') 20.4 36
+('delay', 'delay', 'delay', 'gate_update', 'delay') 11.9 32
+('delay', 'delay', 'delay', 'pull_in') 11.6 38
+('delay', 'delay', 'email') 25.1 104
+('delay', 'delay', 'email', 'email') 21.7 33
+('delay', 'delay', 'gate_update') 14.7 104
+('delay', 'delay', 'gate_update', 'delay') 17.5 57
+('delay', 'delay', 'pull_in') 9.9 71
+('delay', 'delay', 'pull_in', 'delay') 6.4 21
+('delay', 'departure') 12.6 85
+('delay', 'email') 22.5 444
+('delay', 'email', 'arrival') 7.1 22
+('delay', 'email', 'delay') 25.5 42
+('delay', 'email', 'email') 23.4 124
+('delay', 'email', 'email', 'email') 22.0 44
+('delay', 'gate_update') 18.1 519
+('delay', 'gate_update', 'arrival') 11.2 36
+('delay', 'gate_update', 'connection') 7.0 70
+('delay', 'gate_update', 'delay') 16.7 209
+('delay', 'gate_update', 'delay', 'delay') 15.3 77
+('delay', 'gate_update', 'delay', 'delay', 'delay') 17.8 31
+('delay', 'gate_update', 'email') 30.2 46
+('delay', 'gate_update', 'gate_update') 15.1 76
+('delay', 'gate_update', 'gate_update', 'gate_update') 13.2 23
+('delay', 'geofence') 18.1 61
+('delay', 'geofence', 'pull_in') 19.4 22
+('delay', 'pull_in') 7.9 394
+('delay', 'pull_in', 'arrival') 6.1 60
+('delay', 'pull_in', 'connection') 5.9 28
+('delay', 'pull_in', 'delay') 4.9 61
+('delay', 'pull_in', 'departure') 17.0 38
+('delay',) 11.6 10482
+('departure', 'a') 27.2 27
+('departure', 'arrival') 23.4 9532
+('departure', 'arrival', 'arrival') 13.5 167
+('departure', 'arrival', 'arrival', 'check_in') 25.9 50
+('departure', 'arrival', 'check_in') 37.1 2549
+('departure', 'arrival', 'check_in', 'check_in') 22.2 30
+('departure', 'arrival', 'check_in', 'departure') 52.7 21
+('departure', 'arrival', 'check_in', 'departure', 'arrival') 68.2 27
+('departure', 'arrival', 'check_in', 'email') 36.7 59
+('departure', 'arrival', 'departure') 17.3 38
+('departure', 'arrival', 'departure', 'arrival') 21.3 38
+('departure', 'arrival', 'email') 35.7 249
+('departure', 'arrival', 'email', 'check_in') 40.8 38
+('departure', 'arrival', 'email', 'email') 39.2 58
+('departure', 'arrival', 'email', 'email', 'email') 41.1 25
+('departure', 'arrival', 'gate_update') 10.5 26
+('departure', 'cancellation') 19.4 36
+('departure', 'check_in') 29.5 4598
+('departure', 'check_in', 'arrival') 24.8 602
+('departure', 'check_in', 'check_in') 11.3 96
+('departure', 'check_in', 'check_in', 'arrival') 10.0 27
+('departure', 'check_in', 'check_in', 'departure') 45.2 32
+('departure', 'check_in', 'connection') 24.7 224
+('departure', 'check_in', 'connection', 'arrival') 27.0 43
+('departure', 'check_in', 'delay') 25.9 68
+('departure', 'check_in', 'departure') 44.9 57
+('departure', 'check_in', 'departure', 'arrival') 53.4 29
+('departure', 'check_in', 'email') 29.3 99
+('departure', 'check_in', 'email', 'email') 30.8 22
+('departure', 'check_in', 'gate_update') 22.6 48
+('departure', 'check_in', 'gate_update', 'connection') 26.0 23
+('departure', 'connection') 23.0 5805
+('departure', 'connection', 'arrival') 26.7 1179
+('departure', 'connection', 'arrival', 'check_in') 41.7 283
+('departure', 'connection', 'arrival', 'email') 38.7 33
+('departure', 'connection', 'check_in') 39.5 1156
+('departure', 'connection', 'check_in', 'arrival') 27.6 51
+('departure', 'connection', 'check_in', 'email') 40.4 27
+('departure', 'connection', 'connection') 17.3 190
+('departure', 'connection', 'connection', 'arrival') 20.5 38
+('departure', 'connection', 'connection', 'check_in') 30.8 34
+('departure', 'connection', 'delay') 25.3 273
+('departure', 'connection', 'delay', 'arrival') 25.6 54
+('departure', 'connection', 'delay', 'check_in') 35.9 32
+('departure', 'connection', 'delay', 'delay') 22.7 63
+('departure', 'connection', 'delay', 'delay', 'delay') 24.3 22
+('departure', 'connection', 'delay', 'pull_in') 22.5 23
+('departure', 'connection', 'email') 30.7 139
+('departure', 'connection', 'email', 'email') 35.2 50
+('departure', 'connection', 'gate_update') 23.0 388
+('departure', 'connection', 'gate_update', 'arrival') 28.0 81
+('departure', 'connection', 'gate_update', 'arrival', 'check_in') 40.9 22
+('departure', 'connection', 'gate_update', 'check_in') 36.6 54
+('departure', 'connection', 'gate_update', 'delay') 27.1 57
+('departure', 'connection', 'gate_update', 'gate_update') 23.5 45
+('departure', 'delay') 19.6 1542
+('departure', 'delay', 'arrival') 23.6 145
+('departure', 'delay', 'arrival', 'check_in') 35.7 21
+('departure', 'delay', 'check_in') 33.1 81
+('departure', 'delay', 'connection') 22.6 49
+('departure', 'delay', 'delay') 20.4 364
+('departure', 'delay', 'delay', 'arrival') 23.6 76
+('departure', 'delay', 'delay', 'check_in') 33.1 25
+('departure', 'delay', 'delay', 'connection') 21.1 29
+('departure', 'delay', 'delay', 'delay') 20.4 105
+('departure', 'delay', 'delay', 'delay', 'delay') 21.9 28
+('departure', 'delay', 'delay', 'gate_update') 22.7 28
+('departure', 'delay', 'delay', 'pull_in') 20.2 76
+('departure', 'delay', 'email') 24.6 25
+('departure', 'delay', 'gate_update') 21.7 153
+('departure', 'delay', 'gate_update', 'arrival') 25.4 30
+('departure', 'delay', 'gate_update', 'connection') 23.0 31
+('departure', 'delay', 'gate_update', 'delay') 22.2 59
+('departure', 'delay', 'gate_update', 'pull_in') 21.9 24
+('departure', 'delay', 'pull_in') 21.1 337
+('departure', 'delay', 'pull_in', 'arrival') 24.8 39
+('departure', 'delay', 'pull_in', 'delay') 20.2 33
+('departure', 'delay', 'pull_in', 'delay', 'arrival') 25.8 26
+('departure', 'departure') 11.8 325
+('departure', 'departure', 'arrival') 18.5 51
+('departure', 'departure', 'check_in') 24.2 29
+('departure', 'departure', 'connection') 15.5 35
+('departure', 'departure', 'departure') 5.2 30
+('departure', 'departure', 'gate_update') 13.6 45
+('departure', 'departure', 'geofence') 1.5 29
+('departure', 'email') 20.0 929
+('departure', 'email', 'arrival') 23.6 108
+('departure', 'email', 'arrival', 'check_in') 35.0 23
+('departure', 'email', 'arrival', 'email') 35.5 31
+('departure', 'email', 'check_in') 30.5 97
+('departure', 'email', 'check_in', 'email') 34.1 24
+('departure', 'email', 'connection') 24.5 68
+('departure', 'email', 'delay') 19.0 31
+('departure', 'email', 'email') 22.3 253
+('departure', 'email', 'email', 'check_in') 31.3 24
+('departure', 'email', 'email', 'connection') 23.7 21
+('departure', 'email', 'email', 'email') 23.8 61
+('departure', 'email', 'email', 'email', 'email') 21.7 30
+('departure', 'email', 'gate_update') 19.9 34
+('departure', 'gate_update') 18.6 5179
+('departure', 'gate_update', 'arrival') 23.4 790
+('departure', 'gate_update', 'arrival', 'check_in') 36.7 227
+('departure', 'gate_update', 'arrival', 'email') 36.3 21
+('departure', 'gate_update', 'check_in') 33.1 646
+('departure', 'gate_update', 'check_in', 'arrival') 24.1 81
+('departure', 'gate_update', 'connection') 20.1 74
+('departure', 'gate_update', 'delay') 20.8 351
+('departure', 'gate_update', 'delay', 'arrival') 26.1 90
+('departure', 'gate_update', 'delay', 'check_in') 32.3 27
+('departure', 'gate_update', 'delay', 'connection') 23.7 30
+('departure', 'gate_update', 'delay', 'delay') 22.2 61
+('departure', 'gate_update', 'delay', 'delay', 'arrival') 26.8 27
+('departure', 'gate_update', 'delay', 'delay', 'delay') 23.2 24
+('departure', 'gate_update', 'delay', 'delay', 'delay', 'arrival') 26.3 21
+('departure', 'gate_update', 'delay', 'pull_in') 21.3 43
+('departure', 'gate_update', 'email') 26.5 109
+('departure', 'gate_update', 'email', 'email') 28.9 33
+('departure', 'gate_update', 'gate_update') 16.1 987
+('departure', 'gate_update', 'gate_update', 'arrival') 21.9 217
+('departure', 'gate_update', 'gate_update', 'arrival', 'check_in') 37.9 58
+('departure', 'gate_update', 'gate_update', 'check_in') 30.7 131
+('departure', 'gate_update', 'gate_update', 'connection') 22.6 96
+('departure', 'gate_update', 'gate_update', 'connection', 'check_in') 40.1 25
+('departure', 'gate_update', 'gate_update', 'delay') 19.5 87
+('departure', 'gate_update', 'gate_update', 'delay', 'arrival') 23.4 32
+('departure', 'gate_update', 'gate_update', 'email') 28.6 21
+('departure', 'gate_update', 'gate_update', 'gate_update') 18.8 222
+('departure', 'gate_update', 'gate_update', 'gate_update', 'arrival') 22.7 45
+('departure', 'gate_update', 'gate_update', 'gate_update', 'check_in') 32.5 48
+('departure', 'gate_update', 'gate_update', 'gate_update', 'connection') 21.2 34
+('departure', 'gate_update', 'gate_update', 'gate_update', 'delay') 21.9 37
+('departure', 'gate_update', 'gate_update', 'gate_update', 'gate_update') 19.3 49
+('departure', 'geofence') 18.6 4549
+('departure', 'geofence', 'arrival') 23.8 668
+('departure', 'geofence', 'arrival', 'check_in') 38.8 174
+('departure', 'geofence', 'arrival', 'email') 37.2 46
+('departure', 'geofence', 'check_in') 30.7 328
+('departure', 'geofence', 'check_in', 'arrival') 25.1 34
+('departure', 'geofence', 'check_in', 'connection') 28.5 26
+('departure', 'geofence', 'check_in', 'email') 29.1 24
+('departure', 'geofence', 'connection') 24.6 621
+('departure', 'geofence', 'connection', 'arrival') 28.0 113
+('departure', 'geofence', 'connection', 'check_in') 41.2 97
+('departure', 'geofence', 'connection', 'delay') 23.8 35
+('departure', 'geofence', 'connection', 'email') 36.1 29
+('departure', 'geofence', 'connection', 'gate_update') 26.6 37
+('departure', 'geofence', 'delay') 20.9 125
+('departure', 'geofence', 'delay', 'delay') 22.7 23
+('departure', 'geofence', 'delay', 'pull_in') 21.7 27
+('departure', 'geofence', 'departure') 2.1 31
+('departure', 'geofence', 'email') 22.3 169
+('departure', 'geofence', 'email', 'connection') 21.8 27
+('departure', 'geofence', 'email', 'email') 24.1 58
+('departure', 'geofence', 'gate_update') 19.7 529
+('departure', 'geofence', 'gate_update', 'arrival') 24.0 64
+('departure', 'geofence', 'gate_update', 'check_in') 33.6 55
+('departure', 'geofence', 'gate_update', 'delay') 23.0 35
+('departure', 'geofence', 'gate_update', 'email') 28.1 26
+('departure', 'geofence', 'gate_update', 'gate_update') 19.7 89
+('departure', 'geofence', 'geofence') 0.5 112
+('departure', 'geofence', 'geofence', 'connection') 5.6 22
+('departure', 'possible_delay') 21.8 102
+('departure', 'possible_pull_in') 22.0 57
+('departure',) 16.9 48363
+('email', 'a') 24.5 137
+('email', 'a', 'check_in') 37.7 23
+('email', 'a', 'email') 36.7 32
+('email', 'arrival') 14.1 29
+('email', 'check_in') 34.2 1972
+('email', 'check_in', 'check_in') 23.6 62
+('email', 'check_in', 'check_in', 'departure') 44.4 21
+('email', 'check_in', 'departure') 27.2 88
+('email', 'check_in', 'departure', 'geofence') 22.4 21
+('email', 'check_in', 'email') 35.3 434
+('email', 'check_in', 'email', 'email') 38.9 129
+('email', 'check_in', 'email', 'email', 'email') 34.9 37
+('email', 'delay') 27.3 393
+('email', 'delay', 'delay') 32.1 100
+('email', 'delay', 'delay', 'delay') 24.2 37
+('email', 'delay', 'email') 30.0 89
+('email', 'delay', 'email', 'email') 36.6 28
+('email', 'delay', 'gate_update') 28.0 24
+('email', 'departure') 19.2 1000
+('email', 'departure', 'arrival') 25.6 109
+('email', 'departure', 'arrival', 'check_in') 40.6 22
+('email', 'departure', 'arrival', 'email') 38.4 28
+('email', 'departure', 'check_in') 27.9 66
+('email', 'departure', 'connection') 24.6 86
+('email', 'departure', 'delay') 21.1 24
+('email', 'departure', 'email') 25.4 142
+('email', 'departure', 'email', 'email') 25.6 26
+('email', 'departure', 'gate_update') 20.5 92
+('email', 'departure', 'geofence') 18.7 183
+('email', 'departure', 'geofence', 'arrival') 25.7 23
+('email', 'departure', 'geofence', 'email') 25.0 24
+('email', 'departure', 'geofence', 'gate_update') 21.4 29
+('email', 'email') 28.6 6209
+('email', 'email', 'a') 29.3 72
+('email', 'email', 'a', 'email') 40.1 25
+('email', 'email', 'check_in') 33.3 635
+('email', 'email', 'check_in', 'check_in') 23.2 25
+('email', 'email', 'check_in', 'departure') 32.8 25
+('email', 'email', 'check_in', 'email') 35.3 141
+('email', 'email', 'check_in', 'email', 'email') 33.5 34
+('email', 'email', 'delay') 28.2 112
+('email', 'email', 'delay', 'delay') 25.0 39
+('email', 'email', 'delay', 'email') 30.1 42
+('email', 'email', 'departure') 18.9 256
+('email', 'email', 'departure', 'arrival') 24.9 27
+('email', 'email', 'departure', 'check_in') 27.2 23
+('email', 'email', 'departure', 'email') 24.7 46
+('email', 'email', 'departure', 'gate_update') 19.5 21
+('email', 'email', 'departure', 'geofence') 21.6 60
+('email', 'email', 'email') 28.6 2318
+('email', 'email', 'email', 'a') 25.7 47
+('email', 'email', 'email', 'check_in') 32.7 244
+('email', 'email', 'email', 'check_in', 'email') 33.0 50
+('email', 'email', 'email', 'delay') 30.4 39
+('email', 'email', 'email', 'departure') 19.5 79
+('email', 'email', 'email', 'email') 28.3 1082
+('email', 'email', 'email', 'email', 'check_in') 28.9 100
+('email', 'email', 'email', 'email', 'check_in', 'email') 33.3 27
+('email', 'email', 'email', 'email', 'departure') 20.9 39
+('email', 'email', 'email', 'email', 'email') 26.9 546
+('email', 'email', 'email', 'email', 'email', 'check_in') 32.9 58
+('email', 'email', 'email', 'email', 'email', 'email') 27.7 320
+('email', 'email', 'email', 'email', 'email', 'email', 'check_in') 32.6 36
+('email', 'email', 'email', 'email', 'email', 'email', 'email') 23.8 182
+('email', 'email', 'email', 'email', 'email', 'email', 'email', 'email') 28.2 120
+('email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email') 30.8 59
+('email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email') 27.9 30
+('email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email') 26.8 36
+('email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email', 'email') 32.9 30
+('email', 'email', 'email', 'email', 'gate_update') 39.0 24
+('email', 'email', 'email', 'gate_update') 27.9 55
+('email', 'email', 'email', 'gate_update', 'email') 41.9 25
+('email', 'email', 'gate_update') 32.7 149
+('email', 'email', 'gate_update', 'email') 43.6 77
+('email', 'email', 'gate_update', 'email', 'email') 43.7 25
+('email', 'email', 'gate_update', 'gate_update') 36.8 35
+('email', 'email', 'schedule_change') 33.5 23
+('email', 'gate_update') 32.4 561
+('email', 'gate_update', 'delay') 29.5 62
+('email', 'gate_update', 'email') 38.2 220
+('email', 'gate_update', 'email', 'email') 35.6 55
+('email', 'gate_update', 'gate_update') 28.6 107
+('email', 'gate_update', 'gate_update', 'email') 40.8 32
+('email', 'gate_update', 'gate_update', 'gate_update') 33.1 36
+('email', 'geofence') 20.8 39
+('email', 'geofence', 'departure') 18.6 36
+('email', 'schedule_change') 36.0 80
+('email',) 27.9 20836
+('gate_update', 'arrival') 6.7 1080
+('gate_update', 'arrival', 'arrival') 7.0 23
+('gate_update', 'arrival', 'check_in') 21.8 348
+('gate_update', 'arrival', 'departure') 11.9 37
+('gate_update', 'arrival', 'email') 18.5 37
+('gate_update', 'check_in') 17.8 699
+('gate_update', 'check_in', 'arrival') 6.1 37
+('gate_update', 'check_in', 'connection') 6.8 26
+('gate_update', 'connection') 6.7 2070
+('gate_update', 'connection', 'arrival') 9.9 495
+('gate_update', 'connection', 'arrival', 'check_in') 25.7 89
+('gate_update', 'connection', 'check_in') 23.9 349
+('gate_update', 'connection', 'check_in', 'arrival') 9.3 21
+('gate_update', 'connection', 'connection') 7.2 58
+('gate_update', 'connection', 'delay') 7.7 135
+('gate_update', 'connection', 'delay', 'arrival') 10.9 43
+('gate_update', 'connection', 'delay', 'delay') 7.9 31
+('gate_update', 'connection', 'departure') 15.0 23
+('gate_update', 'connection', 'email') 17.8 44
+('gate_update', 'connection', 'email', 'email') 19.1 22
+('gate_update', 'connection', 'gate_update') 7.4 171
+('gate_update', 'connection', 'gate_update', 'arrival') 12.4 37
+('gate_update', 'connection', 'gate_update', 'check_in') 22.7 26
+('gate_update', 'delay') 12.8 1169
+('gate_update', 'delay', 'arrival') 6.8 82
+('gate_update', 'delay', 'arrival', 'check_in') 21.3 26
+('gate_update', 'delay', 'check_in') 18.2 58
+('gate_update', 'delay', 'connection') 6.4 79
+('gate_update', 'delay', 'delay') 14.7 302
+('gate_update', 'delay', 'delay', 'delay') 13.7 155
+('gate_update', 'delay', 'delay', 'delay', 'delay') 20.1 55
+('gate_update', 'delay', 'email') 21.6 60
+('gate_update', 'delay', 'gate_update') 19.1 66
+('gate_update', 'delay', 'gate_update', 'delay') 21.2 49
+('gate_update', 'delay', 'pull_in') 3.8 23
+('gate_update', 'departure') 15.3 242
+('gate_update', 'departure', 'arrival') 19.0 62
+('gate_update', 'departure', 'check_in') 25.0 24
+('gate_update', 'departure', 'gate_update') 15.0 56
+('gate_update', 'email') 27.6 639
+('gate_update', 'email', 'email') 30.7 155
+('gate_update', 'email', 'email', 'email') 31.7 63
+('gate_update', 'email', 'email', 'email', 'email') 30.8 21
+('gate_update', 'gate_update') 13.4 1535
+('gate_update', 'gate_update', 'arrival') 6.6 94
+('gate_update', 'gate_update', 'arrival', 'check_in') 24.8 36
+('gate_update', 'gate_update', 'check_in') 19.4 76
+('gate_update', 'gate_update', 'connection') 6.4 389
+('gate_update', 'gate_update', 'connection', 'arrival') 10.0 88
+('gate_update', 'gate_update', 'connection', 'arrival', 'check_in') 27.1 33
+('gate_update', 'gate_update', 'connection', 'check_in') 24.0 99
+('gate_update', 'gate_update', 'connection', 'connection') 6.7 22
+('gate_update', 'gate_update', 'connection', 'delay') 7.8 28
+('gate_update', 'gate_update', 'connection', 'gate_update') 7.4 33
+('gate_update', 'gate_update', 'delay') 15.4 198
+('gate_update', 'gate_update', 'delay', 'delay') 12.1 70
+('gate_update', 'gate_update', 'delay', 'delay', 'delay') 10.7 28
+('gate_update', 'gate_update', 'email') 30.1 91
+('gate_update', 'gate_update', 'email', 'email') 26.0 26
+('gate_update', 'gate_update', 'gate_update') 15.8 333
+('gate_update', 'gate_update', 'gate_update', 'check_in') 15.2 22
+('gate_update', 'gate_update', 'gate_update', 'connection') 6.6 95
+('gate_update', 'gate_update', 'gate_update', 'connection', 'arrival') 9.6 22
+('gate_update', 'gate_update', 'gate_update', 'connection', 'check_in') 24.3 32
+('gate_update', 'gate_update', 'gate_update', 'delay') 23.3 45
+('gate_update', 'gate_update', 'gate_update', 'delay', 'delay') 13.9 24
+('gate_update', 'gate_update', 'gate_update', 'email') 21.9 22
+('gate_update', 'gate_update', 'gate_update', 'gate_update') 15.4 102
+('gate_update', 'gate_update', 'gate_update', 'gate_update', 'connection') 5.5 23
+('gate_update', 'gate_update', 'gate_update', 'gate_update', 'gate_update') 13.0 32
+('gate_update', 'possible_delay') 3.7 25
+('gate_update',) 12.6 10196
+('geofence', 'arrival') 13.6 305
+('geofence', 'arrival', 'check_in') 25.7 59
+('geofence', 'check_in') 18.1 118
+('geofence', 'connection') 12.7 168
+('geofence', 'connection', 'arrival') 18.1 32
+('geofence', 'connection', 'check_in') 28.1 26
+('geofence', 'delay') 13.9 67
+('geofence', 'departure') 18.2 775
+('geofence', 'departure', 'arrival') 23.9 117
+('geofence', 'departure', 'arrival', 'check_in') 40.0 35
+('geofence', 'departure', 'check_in') 28.4 66
+('geofence', 'departure', 'connection') 22.8 84
+('geofence', 'departure', 'delay') 21.3 24
+('geofence', 'departure', 'email') 22.3 29
+('geofence', 'departure', 'gate_update') 19.8 76
+('geofence', 'departure', 'geofence') 0.2 128
+('geofence', 'departure', 'geofence', 'connection') 5.8 28
+('geofence', 'email') 15.4 98
+('geofence', 'gate_update') 9.4 181
+('geofence', 'gate_update', 'arrival') 16.8 27
+('geofence', 'gate_update', 'gate_update') 11.2 37
+('geofence', 'geofence') 0.8 318
+('geofence', 'geofence', 'arrival') 6.2 29
+('geofence', 'geofence', 'check_in') 13.8 22
+('geofence', 'geofence', 'connection') 5.5 30
+('geofence', 'geofence', 'gate_update') 1.2 22
+('geofence',) 8.7 1674
+('possible_delay', 'arrival') 5.7 41
+('possible_delay', 'connection') 4.9 41
+('possible_delay', 'delay') 4.1 83
+('possible_delay', 'possible_pull_in') 3.9 42
+('possible_delay',) 3.6 214
+('possible_pull_in', 'arrival') 7.1 25
+('possible_pull_in',) 3.5 76
+('pull_in', 'arrival') 4.8 148
+('pull_in', 'arrival', 'check_in') 19.6 37
+('pull_in', 'check_in') 12.5 72
+('pull_in', 'connection') 4.3 53
+('pull_in', 'delay') 3.5 166
+('pull_in', 'delay', 'arrival') 5.7 77
+('pull_in', 'delay', 'delay') 4.0 46
+('pull_in', 'departure') 5.6 43
+('pull_in', 'gate_update') 3.0 40
+('pull_in', 'pull_in') 3.4 65
+('pull_in',) 2.9 1255
+('schedule_change', 'check_in') 24.1 134
+('schedule_change', 'check_in', 'departure') 20.7 23
+('schedule_change', 'delay') 40.4 23
+('schedule_change', 'departure') 19.1 38
+('schedule_change', 'email') 38.0 114
+('schedule_change', 'email', 'email') 46.5 30
+('schedule_change', 'gate_update') 32.5 22
+('schedule_change', 'schedule_change') 27.0 43
+('schedule_change',) 24.7 793
+('unknown_status',) 18.7 78
